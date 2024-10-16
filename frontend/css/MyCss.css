@@ -1,3 +1,6 @@
+
+
+/*Texto encima del carrusel*/
 .carousel-caption-custom {
     position: absolute;
     top: 50%;
@@ -7,3 +10,41 @@
     text-align: center;
     z-index: 10; /* Asegura que esté encima del carousel */
   }
+
+  /*Fuentes personalizadas*/
+  .mis-letras{
+    color: black;
+  }
+
+  /*Personalizacion de los botones*/
+.btn-customizado {
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: rgb(241, 142, 111);
+  --bs-btn-border-color: var(--bd-violet-bg);
+  --bs-btn-hover-color: rgb(238, 98, 71);
+  --bs-btn-hover-bg: var(--bs-white);
+  --bs-btn-hover-border-color: rgb(238, 98, 71);
+  --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+  --bs-btn-active-color: var(--bs-white);
+  --bs-btn-active-bg: rgb(241, 142, 111);
+  --bs-btn-active-border-color: var(--bd-violet-bg);
+  border-radius: 50px;
+  margin-bottom: 50px;
+}
+
+/*Personalizacion de los links de la navbar*/
+#item-lista-customizado{
+  font-weight: 600;
+  --bs-nav-pills-border-radius: 50px;
+  --bs-nav-pills-link-active-color: #fff;
+  --bs-nav-pills-link-active-bg:  rgb(241, 142, 111);
+  --bs-nav-link-color:  rgb(241, 142, 111);;
+  --bs-nav-link-hover-color:  rgb(241, 142, 111);
+  --bs-dropdown-link-color: rgb(241, 142, 111);
+  --bs-dropdown-link-hover-color: #fff;
+  --bs-dropdown-link-hover-bg: rgb(241, 142, 111);
+  --bs-dropdown-link-active-color: #fff;
+  --bs-dropdown-link-active-bg:rgb(241, 142, 111);
+  border-radius: 50px;
+}
